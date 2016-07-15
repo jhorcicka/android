@@ -11,6 +11,7 @@
 	
 	<modules>
 		<module>sandbox</module>
+		<module>noxml</module>
 		<module>android-framework</module>
 	</modules>
 	

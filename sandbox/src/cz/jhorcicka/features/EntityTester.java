@@ -1,8 +1,6 @@
 package cz.jhorcicka.features;
 
-import android.widget.TextView;
 import cz.jhorcicka.entity.Category;
-import cz.orm.activeandroid.R;
 
 /**
  * Created by horcicka on 29. 09 . 2015.

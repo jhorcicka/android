@@ -1,12 +1,12 @@
 package cz.jhorcicka.features;
 
+import java.io.IOException;
+
 import android.app.Activity;
 import android.media.MediaPlayer;
 import android.media.MediaRecorder;
 import android.os.Environment;
 import cz.jhorcicka.logging.Logger;
-
-import java.io.IOException;
 
 /**
  * Created by horcicka on 29. 09 . 2015.
