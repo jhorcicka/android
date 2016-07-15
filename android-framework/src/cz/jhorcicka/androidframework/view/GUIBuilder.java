@@ -1,5 +1,9 @@
 package cz.jhorcicka.androidframework.view;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
+
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.graphics.Point;
@@ -11,10 +15,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Random;
 
 /**
  * Builder class for GUI elements.
