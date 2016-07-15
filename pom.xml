@@ -15,6 +15,7 @@
 		<module>tasks</module>
 		<module>counters</module>
 		<module>android-framework</module>
+		<module>euro-czk-converter</module>
 	</modules>
 	
 	<properties>
