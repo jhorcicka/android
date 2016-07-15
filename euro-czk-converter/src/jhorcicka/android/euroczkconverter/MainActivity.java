@@ -1,13 +1,13 @@
 package cz.jhorcicka.android.euroczkconverter;
 
+import java.util.logging.Logger;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 import cz.kuba.androidframework.view.GUIBuilder;
-
-import java.util.logging.Logger;
 
 /**
  * Simple converter between CZK end Euro.
