@@ -1,8 +1,11 @@
 package cz.jhorcicka.counters;
 
-import android.os.Bundle;
+import java.util.ArrayList;
+import java.util.List;
+
 import android.app.ListActivity;
 import android.content.Intent;
+import android.os.Bundle;
 import android.util.SparseBooleanArray;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -13,9 +16,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import cz.jhorcicka.counters.db.Db;
 import cz.jhorcicka.counters.model.Counter;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends ListActivity {
 	private static final String MENU_NEW_COUNTER = "New counter";

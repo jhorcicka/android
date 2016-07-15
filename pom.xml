@@ -12,6 +12,7 @@
 	<modules>
 		<module>sandbox</module>
 		<module>noxml</module>
+		<module>tasks</module>
 		<module>counters</module>
 		<module>android-framework</module>
 	</modules>
