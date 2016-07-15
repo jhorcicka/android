@@ -1,0 +1,22 @@
+package cz.jhorcicka.androidframework.controller;
+
+import com.activeandroid.ActiveAndroid;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class MainActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    public void onCreate() {
+        ActiveAndroid.initialize(this);
+    }
+
+    public void onTerminate() {
+        ActiveAndroid.dispose();
+    }
+}
