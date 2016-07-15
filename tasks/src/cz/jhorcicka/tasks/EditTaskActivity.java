@@ -1,6 +1,6 @@
 package cz.jhorcicka.tasks;
 
-import cz.jhorcicka.tasks.model.Task;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-import android.graphics.Color;
+import cz.jhorcicka.tasks.model.Task;
 
 public class EditTaskActivity extends BaseActivity {
     private static final String MENU_SAVE = "Save";

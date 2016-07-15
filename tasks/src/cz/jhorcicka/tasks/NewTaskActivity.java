@@ -1,13 +1,13 @@
 package cz.jhorcicka.tasks;
 
-import cz.jhorcicka.tasks.model.Interval;
-import cz.jhorcicka.tasks.model.Task;
-import cz.jhorcicka.tasks.utils.DateConverter;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.EditText;
 import android.widget.CheckBox;
+import android.widget.EditText;
+import cz.jhorcicka.tasks.model.Interval;
+import cz.jhorcicka.tasks.model.Task;
+import cz.jhorcicka.tasks.utils.DateConverter;
 
 public class NewTaskActivity extends BaseActivity {
     private static final String MENU_SAVE = "Save";

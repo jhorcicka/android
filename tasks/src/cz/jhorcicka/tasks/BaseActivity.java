@@ -1,8 +1,8 @@
 package cz.jhorcicka.tasks;
 
-import cz.jhorcicka.tasks.db.Db;
 import android.app.Activity;
 import android.content.Intent;
+import cz.jhorcicka.tasks.db.Db;
 
 public abstract class BaseActivity extends Activity {
     private Db db = null;

@@ -3,13 +3,13 @@ package cz.jhorcicka.tasks;
 import java.util.ArrayList;
 import java.util.List;
 
-import cz.jhorcicka.tasks.model.Task;
-import cz.jhorcicka.tasks.utils.DateConverter;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+import cz.jhorcicka.tasks.model.Task;
+import cz.jhorcicka.tasks.utils.DateConverter;
 
 public class OverviewActivity extends BaseActivity {
     private final String MENU_TASKS = "TASKS";

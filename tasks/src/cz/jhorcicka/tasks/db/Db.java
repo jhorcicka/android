@@ -3,13 +3,13 @@ package cz.jhorcicka.tasks.db;
 import java.util.ArrayList;
 import java.util.List;
 
-import cz.jhorcicka.tasks.model.Interval;
-import cz.jhorcicka.tasks.model.Task;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import cz.jhorcicka.tasks.model.Interval;
+import cz.jhorcicka.tasks.model.Task;
 
 public class Db extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;
