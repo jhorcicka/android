@@ -1,4 +1,4 @@
-package cz.hk.kuba.noxml;
+package cz.jhorcicka.noxml;
 
 import android.app.Activity;
 import android.os.Bundle;

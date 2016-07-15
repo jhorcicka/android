@@ -1,9 +1,9 @@
-package cz.hk.kuba.noxml;
+package cz.jhorcicka.noxml;
+
+import java.util.logging.Logger;
 
 import android.content.Context;
 import android.widget.EditText;
-
-import java.util.logging.Logger;
 
 public class MyInput extends EditText {
     private static final Logger logger = Logger.getLogger(MyInput.class.getName());

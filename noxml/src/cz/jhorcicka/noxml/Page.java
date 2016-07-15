@@ -1,4 +1,4 @@
-package cz.hk.kuba.noxml;
+package cz.jhorcicka.noxml;
 
 /**
  * Created by horcicka on 29. 10 . 2015.
