@@ -1,0 +1,2 @@
+rootProject.name='SimpleEmailSender'
+include ':app'
